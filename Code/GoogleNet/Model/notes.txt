@@ -1,0 +1,5 @@
+04.20: standard version
+04.25: manually inserted rotated positive images, with 3 negatives/1 (4) positive images, 3000 epochs
+04.26: negative images increased to 15/4 positive images, 3000 epochs
+04.27: negative images to 30/4, up-down and left-right flip added
+

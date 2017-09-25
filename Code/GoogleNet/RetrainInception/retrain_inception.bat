@@ -1,0 +1,1 @@
+python D:\Stuff\TensorflowGit\tensorflow\tensorflow\examples\image_retraining\retrain.py --how_many_training_steps %1 --image_dir  d:\School\2017Onlab1\Code\Creating_Training_Images\EveryImage\Nodules\	--validation-batch-size -1 --flip_left_right True --random_brightness 5 --random_scale 5
