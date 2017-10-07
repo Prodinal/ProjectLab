@@ -57,7 +57,7 @@ winH = 298
 # how close the tumor has to be to the middle of the boundingbox in order for it to be positive ( % of the window size)
 # 0.4 is 40% of the square cut away from each side, e.g. the middle 0.2WinW by 0.2WinH square
 errorTolerance = 0.4
-resultDocumentsPath = 'd:\\School\\2017Onlab1\\Code\\GoogleNet\\Results\\'
+resultDocumentsPath = 'd:\\School\\2017Onlab\\ProjectLab\\Code\\GoogleNet\\Results\\'
 #
 clone = None
 
@@ -168,7 +168,7 @@ def Main():
 
     evaluate_image_slice.init_tf("D:\\tmp\\output_graph.pb", label_lines)
 
-    folder_path = ("d:\\School\\2017Onlab1\Code\\"
+    folder_path = ("d:\\School\\2017Onlab\\ProjectLab\\Code\\"
                 "Creating_Training_Images\\EveryImage\\")
     image_name = "JPCLN001Result.png"
     image_path = folder_path + image_name
@@ -185,7 +185,7 @@ def Main():
                 'r')
     coordsOfCorrect = getCorrectCoords(info_file, getFileNameFromImagePath(image_path).replace('Result', ''))    
 
-    lungmask_path = "d:\\School\\2017Onlab1\\Code\\Creating_Training_Images\\EveryImage\\LungMasks\\" + getFileNameFromImagePath(image_path).replace('Result', '')
+    lungmask_path = "d:\\School\\2017Onlab\\ProjectLab\\Code\\Creating_Training_Images\\EveryImage\\LungMasks\\" + getFileNameFromImagePath(image_path).replace('Result', '')
     lungmask_data = cv2.imread(lungmask_path)
     # lungmask_data = cv2.cvtColor(lungmask_data, cv2.COLOR_BGR2GRAY)
 

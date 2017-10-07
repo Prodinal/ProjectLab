@@ -1,4 +1,4 @@
-Images/EveryImage/JPCLN022.png
+﻿.vscode/*
 Code/.vscode/launch.json
 Code/.vscode/settings.json
 Code/.vscode/.ropeproject/objectdb
@@ -247,8 +247,10 @@ Code/Cifar10/tutorials/rnn/ptb/BUILD
 Code/Cifar10/tutorials/rnn/translate/BUILD
 Code/Cifar10/video_prediction/download_data.sh
 Code/Cifar10/video_prediction/README.md
+Code/Creating_Training_Images/__pycache__/*
 Code/Creating_Training_Images/__pycache__/commonImageTrain.cpython-35.pyc
 Code/Creating_Training_Images/__pycache__/create_test_images.cpython-35.pyc
+Code/Creating_Training_Images/EveryImage/*
 Code/Creating_Training_Images/EveryImage/CLNDAT_E.TXT
 Code/Creating_Training_Images/EveryImage/JPCLN001.png
 Code/Creating_Training_Images/EveryImage/JPCLN001Result.png
@@ -4492,6 +4494,8 @@ Code/Creating_Training_Images/ValidateImages/WholeImages/JPCLN127.png
 Code/Creating_Training_Images/ValidateImages/WholeImages/JPCLN127Result.png
 Code/Creating_Training_Images/ValidateImages/WholeImages/JPCLN132.png
 Code/Creating_Training_Images/ValidateImages/WholeImages/JPCLN132Result.png
+Code/GoogleNet/EvaluateImage/__pycache__/*
+Code/GoogleNet/EvaluateImage/evaluate_image_slice.pyc
 Code/GoogleNet/EvaluateImage/FeatureMaps.xlsx
 Code/GoogleNet/EvaluateImage/FeatureMapsDebug.xlsx
 Code/GoogleNet/EvaluateImage/FeatureMapsEdited.xlsx
@@ -4531,6 +4535,7 @@ Code/GoogleNet/Model/2017.04.27/tmp/imagenet/inception-2015-12-05.tgz
 Code/GoogleNet/Model/2017.04.27/tmp/imagenet/LICENSE
 Code/GoogleNet/Model/2017.04.27/tmp/retrain_logs/train/events.out.tfevents.1493250049.MRRAPCSAK
 Code/GoogleNet/Model/2017.04.27/tmp/retrain_logs/validation/events.out.tfevents.1493250063.MRRAPCSAK
+Code/GoogleNet/RetrainInception/retrained_model/*
 Code/GoogleNet/Results/01Result.png
 Code/GoogleNet/Results/09Result.png
 Code/GoogleNet/Results/17Result.png
@@ -4937,6 +4942,7 @@ Documents/Documentation_nyeh.docx
 Documents/Msc_Önlab_doksi.docx
 Documents/Msc_Önlab_doksi.pdf
 Documents/presentation.pptx
+Images/*
 Images/EveryImage/CLNDAT_E.TXT
 Images/EveryImage/JPCLN001.png
 Images/EveryImage/JPCLN001Result.png
@@ -4998,3 +5004,4 @@ Images/EveryImage/JPCLN029Result.png
 Images/EveryImage/JPCLN030.png
 Images/EveryImage/JPCLN030Result.png
 Images/EveryImage/JPCLN031.png
+Sources/*

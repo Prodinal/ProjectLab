@@ -33,7 +33,7 @@ def evaluateSlice(image_data):
 def init_tf(saved_graph_path, label_lines):
     global LABELS
     LABELS = label_lines
-    with tf.gfile.FastGFile(saved_graph_path) as f:
+    with tf.gfile.FastGFile(saved_graph_path, 'rb') as f:
         graph_def = tf.GraphDef()
         graph_def.ParseFromString(f.read())
         _ = tf.import_graph_def(graph_def, name='')
