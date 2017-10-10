@@ -4536,6 +4536,7 @@ Code/GoogleNet/Model/2017.04.27/tmp/imagenet/LICENSE
 Code/GoogleNet/Model/2017.04.27/tmp/retrain_logs/train/events.out.tfevents.1493250049.MRRAPCSAK
 Code/GoogleNet/Model/2017.04.27/tmp/retrain_logs/validation/events.out.tfevents.1493250063.MRRAPCSAK
 Code/GoogleNet/RetrainInception/retrained_model/*
+Code/GoogleNet/Results/*
 Code/GoogleNet/Results/01Result.png
 Code/GoogleNet/Results/09Result.png
 Code/GoogleNet/Results/17Result.png

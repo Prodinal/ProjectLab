@@ -34,7 +34,7 @@ def deleteOldFiles():
 
 
 def getPathFromFileName(name):
-    image_paths = glob.glob("d:\\School\\2017Onlab1\\Code\\Creating_Training_Images\\ValidateImages\\ImageSlices\\*")
+    image_paths = glob.glob("d:\\School\\2017Onlab\\ProjectLab\\Code\\Creating_Training_Images\\ValidateImages\\ImageSlices\\*")
     for path in image_paths:
         if name in path:
             return path
@@ -69,7 +69,7 @@ def calculateResults(healthy, tumors, cantTell):
 
 
 def saveFeatureMaps(positive, negative):
-    wb = openpyxl.load_workbook('d:\\School\\2017Onlab1\\Code\\GoogleNet\\EvaluateImage\\' + "FeatureMaps.xlsx")
+    wb = openpyxl.load_workbook('d:\\School\\2017Onlab\\ProjectLab\\Code\\GoogleNet\\EvaluateImage\\' + "FeatureMaps.xlsx")
     ws = wb.active
     for fm in positive:
         tmpList = fm.tolist()
@@ -82,7 +82,7 @@ def saveFeatureMaps(positive, negative):
 
     
 
-    wb.save('d:\\School\\2017Onlab1\\Code\\GoogleNet\\EvaluateImage\\' + "FeatureMaps.xlsx")
+    wb.save('d:\\School\\2017Onlab\\ProjectLab\\Code\\GoogleNet\\EvaluateImage\\' + "FeatureMaps.xlsx")
 
 
 def Main():
@@ -90,7 +90,7 @@ def Main():
 
     evaluate_image_slice.init_tf("D:\\tmp\\output_graph.pb", ["positive", "negative"])
 
-    image_paths = glob.glob("d:\\School\\2017Onlab1\\Code\\Creating_Training_Images\\ValidateImages\\ImageSlices\\*")
+    image_paths = glob.glob("d:\\School\\2017Onlab\\ProjectLab\\Code\\Creating_Training_Images\\ValidateImages\\ImageSlices\\*")
     tumors = []
     healthy = []
     cantTell = []
